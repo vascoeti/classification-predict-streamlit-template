@@ -23,7 +23,10 @@
 """
 # Streamlit dependencies
 import streamlit as st
-import joblib,os
+import joblib
+print(joblib.__file__)
+
+import os
 
 # Data dependencies
 import pandas as pd
